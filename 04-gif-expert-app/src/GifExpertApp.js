@@ -6,12 +6,12 @@ const GifExpertApp = () => {
 
     //const categories = ['Goku', 'Vegeta', 'Cell']
 
-    const [categories, setCategories] = useState(['Goku']);
+    const [categories, setCategories] = useState([]);
 
     // Los tres puntos significas que vamos a concatenera el elemento con otro (Operador spread)
-    const addNewCaracter = () => {
-        setCategories([...categories, 'HunterxHunter']);
-    }
+    // const addNewCaracter = () => {
+    //     setCategories([...categories, 'HunterxHunter']);
+    // }
     return (
         <>
             <h2>GifExpertApp</h2>
